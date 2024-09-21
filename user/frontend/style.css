@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+:root{
+  --primaryColor: rgb(51,129,249);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+  background-color: #003;
+  padding: 0.2%;
+  border-bottom: solid 2px grey;
+}
+.hidden {
+  display: none;
+}
+.left-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.right-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.logo {
+  height: inherit;
+  padding-right: 1rem;
+}
+
+.logo img {
+  height: 88%;
+  border-radius: 50%;
+}
+
+.login-status {
+  display: flex;
+  color: #fff;
+}
+
+.login-status * {
+  padding-right: 1rem;
+}
+
+.cart {
+  color: #fff;
+}
+
+.search-form {
+  display: flex;
+}
+
+input[type="search"],
+input[type="submit"] {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+input[type="submit"]{
+  background-color: var(--primaryColor);
+}
+.navigation {
+  background-color: #002;
+  height: 8vh;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: inherit;
+  list-style: none;
+}
+
+.navigation ul li{
+  padding: 0.3rem 1.5rem;
+  margin-left: 5rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  background-color: var(--primaryColor);
+  border-radius: 1.5rem;
+}
