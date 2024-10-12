@@ -12,6 +12,13 @@
 body {
   background-color: aliceblue;
 }
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
 .heading {
   display: flex;
   justify-content: space-between;
@@ -97,3 +104,53 @@ input[type="submit"]{
   background-color: var(--primaryColor);
   border-radius: 1.5rem;
 }
+
+/* main starts here */
+main{
+  min-height: 45vh;
+  margin-top: 16vh;
+}
+/* main ends here */
+
+/*footer section  starts here */
+footer li{
+  transform: all 2s ease-in-out;
+}
+
+footer li:hover{
+  color: var(--primaryColor);
+  font-size: larger;
+}
+
+.social-share ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.social-share ul li{
+  margin: .5% 1%;
+}
+
+.general-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #e6eef5;
+  text-transform: capitalize;
+  padding: 0 2%;
+}
+
+.general-info h3{
+margin: 25px 0px;
+}
+
+.general-info ul{
+  list-style: none;
+}
+
+.general-info ul li{
+  margin-bottom: 15px;
+}
+/*footer section ends here */
